@@ -7,8 +7,6 @@ I work on retrieval-augmented generation systems and how to evaluate whether
 their answers can actually be trusted — evidence support, retrieval failure
 modes, and what happens when a knowledge base changes underneath a model.
 
-**Currently:** evaluating whether retrieval benchmarks measure semantic
-retrieval or just lexical identifier matching (see [CVE_KR_RAG](https://github.com/gangmurloc/CVE_KR_RAG)).
 
 #### Selected projects
 
