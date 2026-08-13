@@ -19,7 +19,7 @@ retrieval or just lexical identifier matching (see [CVE_KR_RAG_GIL](https://gith
 - **[DECAP](https://github.com/gangmurloc/DECAP)** — Dependency-complete
   semantic patching for updating evolving LLM answers while preserving
   claims that are still valid, instead of regenerating from scratch.
-- **[CVE_KR_RAG_GIL](https://github.com/gangmurloc/CVE_KR_RAG_GIL)** — Korean
+- **[CVE_KR_RAG_](https://github.com/gangmurloc/CVE_KR_RAG)** — Korean
   CVE QA benchmark and RAG evaluation pipeline comparing BM25, dense,
   hybrid, and reranking retrieval, including a diagnostic split that removes
   the CVE ID lexical shortcut from queries to isolate genuine retrieval
