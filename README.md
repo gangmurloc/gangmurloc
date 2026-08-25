@@ -23,7 +23,7 @@ evidence support rather than relying on a single fixed pipeline.
 
 - Locked 6,000-question Test-C across HotpotQA, 2WikiMultiHopQA, and MuSiQue
 - Macro F1: fixed FARR anchor **0.5140** → FARR-EVA **0.5754 (+0.0614)**
-- 95% bootstrap CI for the improvement: **[0.0529, 0.0700]**
+- 95% bootstrap CI for the improvement: **[0.0530, 0.0699]**
 
 → Evidence-based trajectory arbitration improved upon the validation-fixed
 FARR anchor on each of the three datasets.
