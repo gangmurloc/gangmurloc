@@ -30,6 +30,27 @@ FARR anchor on each of the three datasets.
 
 ---
 
+### [GIL](https://github.com/gangmurloc/GIL)
+
+**Offline-compiled generation licenses for source-conditioned RAG**
+
+Compiles source evidence into reusable Generation Contract Units so that
+query-time generation can rank licensed evidence without repeatedly verifying
+every retrieved candidate.
+
+**Key result**
+
+- FEVER-ABC300 with exact FEVER gold evidence as the licensing target
+- Online verifier calls/query: OTF-VRAG **42.67** → GIL **1.38**
+- Exact licensed-source precision: **0.3217 → 0.6250 (+0.3033)**
+- 95% bootstrap CI for the precision improvement: **[0.2556, 0.3511]**
+
+→ Offline compilation sharply reduced online verification and selected
+cleaner gold-licensed evidence, with a precision–recall trade-off and no claim
+of universal answer-quality improvement.
+
+---
+
 ### [CVE_KR_RAG](https://github.com/gangmurloc/CVE_KR_RAG)
 
 **Diagnosing retrieval shortcuts in Korean CVE RAG**
