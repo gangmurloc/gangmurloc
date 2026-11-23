@@ -9,7 +9,37 @@ their underlying knowledge changes.
 
 ---
 
+## Awards
+
+- **Silver Prize, Undergraduate Division — ACK 2026** (Annual Conference of KIPS, Nov 2026)
+  *Chunk Boundary Phase Sensitivity in Retrieval-Augmented Generation*, with Prof. Yu-seop Kim ·
+  [code](https://github.com/gangmurloc/chunk-boundary-phase)
+
+---
+
 ## Selected Research Projects
+
+### [Chunk Boundary Phase](https://github.com/gangmurloc/chunk-boundary-phase)
+
+**Chunk boundary phase sensitivity in fixed-size RAG** · ACK 2026 Silver Prize (Undergraduate Division)
+
+Holds chunk size and overlap fixed, shifts only where the chunk grid starts,
+and measures how much retrieved evidence and final answers change.
+
+**Key result**
+
+- Ko-LongRAG singledocQA: 300 questions, 8 boundary phases, 43,200 responses
+- Answer correctness changed with the phase in **20.81%** of item–configuration
+  cells (1,124 / 5,400)
+- Less overlap between retrieved source spans ↔ higher odds of answer
+  disagreement: β = **−0.569**, Holm-adjusted p = 5.3 × 10⁻⁷
+- Identical retrieved spans almost never changed correctness (0 / 1,232 and
+  1 / 1,232)
+
+→ Chunk size and overlap do not fix where boundaries fall; fixed-size RAG
+evaluations should check stability under boundary shifts.
+
+---
 
 ### [FARR-EVA](https://github.com/gangmurloc/FARR-EVA)
 
